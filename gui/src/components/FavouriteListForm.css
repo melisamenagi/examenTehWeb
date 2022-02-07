@@ -1,0 +1,48 @@
+.list-form {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(64, 224, 203);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 5px;
+  }
+  
+.list-form .description {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.list-form date {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.add {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type=button] {
+    background: lightcyan;
+    border-radius: 5px;
+    border-style: none; 
+    font-family: Raleway;
+    margin: 5px;
+  }
+
+  p,h1,h2,h3, input[type=text] {
+      font-family: Raleway;
+  }

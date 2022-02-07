@@ -1,0 +1,31 @@
+.list-item {
+    height: 250px;
+    width: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+  
+.list-item .description {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    font-family: Raleway;
+  }
+  
+.list-item .date {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 158, 238);
+    font-family: Raleway;
+  }

@@ -1,0 +1,15 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+  }
+
+.list .add {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.list .details {
+  flex-wrap: nowrap;
+}

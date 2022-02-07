@@ -1,0 +1,68 @@
+.favourite-list {
+    height: fit-content;
+    width: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+  
+  .favourite-list .description {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    font-family: Raleway;
+  }
+  
+  .favourite-list .title {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+    font-family: Raleway;
+  }
+
+  .favourite-list .date {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 158, 238);
+    font-family: Raleway;
+  }
+
+.favourite-list .videos {
+    height: fit-content;
+    width: 200px;
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .favourite-list li{
+    width: 190px;
+    background-color: rgb(20, 116, 241);
+    margin: 5px;
+  }
+
+  .favourite-list .videos .video-info {
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }

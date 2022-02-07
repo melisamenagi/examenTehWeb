@@ -1,0 +1,41 @@
+.video {
+    height: fit-content;
+    width: 200px;
+    background-color: rgb(199, 164, 199);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+  
+  .video .description {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 115, 172);
+    font-family: Raleway;
+  }
+  
+  .video .title {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 69, 121);
+    font-family: Raleway;
+  }
+
+  .video .url {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(109, 30, 109);
+    font-family: Raleway;
+  }
